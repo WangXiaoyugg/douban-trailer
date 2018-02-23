@@ -1,0 +1,1 @@
+const Koa = require('koa');const app = new Koa();const port = 8888;app.use((ctx,next) => {    ctx.body = '电影首页'});app.listen(port);console.log(`app is listen at localhost: ${port}`);

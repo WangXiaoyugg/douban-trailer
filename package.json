@@ -1,0 +1,28 @@
+{
+  "name": "douban-trailer",
+  "version": "1.0.0",
+  "description": "movie trailer",
+  "main": "server/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/WangXiaoyugg/douban-trailer.git"
+  },
+  "keywords": [
+    "douban",
+    "movie",
+    "trailer"
+  ],
+  "author": "garen",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/WangXiaoyugg/douban-trailer/issues"
+  },
+  "homepage": "https://github.com/WangXiaoyugg/douban-trailer#readme",
+  "dependencies": {
+    "koa": "^2.5.0"
+  }
+}
