@@ -1,1 +1,1 @@
-const Koa = require('koa');const app = new Koa();const port = 8888;app.use((ctx,next) => {    ctx.body = '电影首页'});app.listen(port);console.log(`app is listen at localhost: ${port}`);
+const Koa = require('koa');const app = new Koa();const { normalTpl } = require('./tpl')const port = 8888;app.use(async (ctx, next) => {    ctx.type = 'text/html;charset=utf-8';    ctx.body = normalTpl;});app.listen(port);console.log(`app is listen at localhost: ${port}`);
