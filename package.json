@@ -23,6 +23,7 @@
   },
   "homepage": "https://github.com/WangXiaoyugg/douban-trailer#readme",
   "dependencies": {
+    "ejs": "^2.5.7",
     "koa": "^2.5.0"
   }
 }

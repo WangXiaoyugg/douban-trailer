@@ -1,1 +1,1 @@
-const normalTpl = require("./normal");module.exports = {    normalTpl: normalTpl}
+module.exports = {    htmlTpl: require("./html"),    ejsTpl : require('./ejs')};
