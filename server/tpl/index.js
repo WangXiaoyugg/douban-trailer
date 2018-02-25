@@ -1,1 +1,1 @@
-module.exports = {    htmlTpl: require("./html"),    ejsTpl : require('./ejs')};
+module.exports = {    htmlTpl: require("./html"),    ejsTpl : require('./ejs'),    pugTpl : require("./pug"),};
